@@ -71,7 +71,6 @@ class admin
         $params = [
             ':user_name' => $nome,
             ':user_email' => $email,
-            ':user_password' => $senha_hash,
             ':user_id' => $id
         ];
 
